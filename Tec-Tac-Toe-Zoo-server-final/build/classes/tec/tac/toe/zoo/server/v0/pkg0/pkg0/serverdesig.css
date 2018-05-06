@@ -1,0 +1,61 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 4, 2018, 7:34:06 AM
+    Author     : lw
+*/
+
+root { 
+    display: block;
+}
+
+.root {
+    -fx-background-image: url("serv.jpg");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center ;
+    -fx-background-size: 700 570;
+}
+#server{
+    -fx-font-size: 32px;
+    -fx-font-family: "Arial Black";
+    -fx-text-fill:#FDD017;
+    
+}
+#start{
+    -fx-font-weight: bold;
+    -fx-font-size: 30px;
+    -fx-text-fill:#347C17;
+    -fx-min-width: 47px;
+    -fx-min-height: 37px; 
+    -fx-max-width: 400px; 
+    -fx-max-height: 100px;
+    -fx-background-color: #FFE87C;
+
+}
+
+#start:hover{
+    -fx-text-fill:#347C17;
+    -fx-background-color: #FFFFCC;
+ -fx-cursor: hand;
+}
+
+#stop{
+    -fx-font-weight: bold;
+    -fx-font-size: 30px;
+    -fx-text-fill:#347C17;
+    -fx-min-width: 47px;
+    -fx-min-height: 37px; 
+    -fx-max-width: 400px; 
+    -fx-max-height: 100px;
+    -fx-background-color: #FFE87C;
+
+}
+
+#stop:hover{
+    -fx-text-fill:#347C17;
+    -fx-background-color: #FFFFCC;
+ -fx-cursor: hand;
+}

@@ -1,0 +1,53 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 28, 2017, 1:11:37 PM
+    Author     : User
+*/
+
+root { 
+    display: block;
+}
+
+.root {
+    -fx-background-image: url("../images/pic.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center ;
+    -fx-background-size: 700 570;
+}
+
+#login {
+    -fx-font-size: 30px;
+    -fx-font-family: "Comic Sans MS",cursive, sans-serif;
+    -fx-font-weight: bold;
+    -fx-text-fill: #347235;
+     -fx-cursor: hand;
+
+}
+
+#login:hover {
+    
+    -fx-font-weight: bold;
+    -fx-text-fill: #FFFFCC;
+    -fx-effect: dropshadow( gaussian , rgba(255, 255, 204,.5) , 0,0,1,3 );
+}
+
+
+#sign {
+    -fx-font-size: 30px;
+    -fx-font-family: "Comic Sans MS",cursive, sans-serif;
+    -fx-font-weight: bold;
+    -fx-text-fill: #347235;
+     -fx-cursor: hand;
+
+}
+
+#sign:hover {
+    
+    -fx-font-weight: bold;
+    -fx-text-fill: #FFFFCC;
+    -fx-effect: dropshadow( gaussian , rgba(255, 255, 204,.5) , 0,0,1,3 );
+}

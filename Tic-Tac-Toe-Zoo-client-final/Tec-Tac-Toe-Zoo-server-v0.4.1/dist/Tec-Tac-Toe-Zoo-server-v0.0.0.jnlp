@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Tec-Tac-Toe-Zoo-server-v0.0.0.jnlp">
+  <information>
+    <title>Tec-Tac-Toe-Zoo-server-v0.0.0</title>
+    <vendor>Omnia</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Tec-Tac-Toe-Zoo-server-v0.0.0.jar" size="15458" download="eager" />
+    <jar href="lib\mysql-connector-java-5.1.23-bin.jar" size="834126" download="eager" />
+    <jar href="lib\mysql-connector-java-5.1.45-bin.jar" size="999810" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Tec-Tac-Toe-Zoo-server-v0.0.0" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="tec.tac.toe.zoo.server.v0.pkg0.pkg0.Server"  name="Tec-Tac-Toe-Zoo-server-v0.0.0" />
+  <update check="always"/>
+</jnlp>
